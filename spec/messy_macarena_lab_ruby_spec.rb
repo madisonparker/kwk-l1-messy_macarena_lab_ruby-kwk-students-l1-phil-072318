@@ -77,6 +77,7 @@ RSpec.describe "The Macarena" do
     end
   end    
 
+  
   describe "Step 8:" do
     it "prints 'Bring your left hand up and around to the back your head'" do
       steps = capture_dance_steps_from('./macarena.rb')
