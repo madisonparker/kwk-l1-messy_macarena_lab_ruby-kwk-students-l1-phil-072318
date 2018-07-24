@@ -85,5 +85,15 @@ RSpec.describe "The Macarena" do
 
       expect(steps[8]).to include(step_8), "\nStep 8 should be '#{step_8}', not '#{steps[8]}'"
     end
-  end    
+  end 
+  
+  # describe "Step 8:" do
+  #   it "prints 'Bring your left hand up and around to the back your head'" do
+  #     steps = capture_dance_steps_from('./macarena.rb')
+
+  #     step_8 = "Bring your left hand up and around to the back your head"
+
+  #     expect(steps[8]).to include(step_8), "\nStep 8 should be '#{step_8}', not '#{steps[8]}'"
+  #   end
+  # end    
 end
